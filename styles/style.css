@@ -27,7 +27,6 @@
 
 .header__rec {
   position: absolute;
-  display: flex;
   align-items: center;
   top: var(--decoration-gap);
   justify-self: end;
