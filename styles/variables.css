@@ -4,7 +4,7 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --page-font-family: IBM Plex Mono, monospace;
+  --page-font-family: "IBM Plex Mono", monospace;
   --page-pad: 10px;
   --decoration-gap: clamp(10px , 2.65vw , 20px);
   --uppercase-letters-mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

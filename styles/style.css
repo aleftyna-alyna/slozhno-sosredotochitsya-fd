@@ -409,8 +409,7 @@
   }
 
   .footer {
-    /* min-block-size: 768px; */
-    margin-block-start: 60px;
+    min-block-size: 768px;
   }
 
   .footer__text {
