@@ -16,6 +16,6 @@
   --text-color: #F1B2CE;
   --decorated-color:#FF0070;
   --footer-accent-color:#FF0070;
-  --button-color:var(--decorated-color);
-  --decorated-color-rgb: 255, 0, 112; 
+  --button-color: var(--decorated-color);
+  --decorated-color-rgb: 255, 0, 112;
 }
