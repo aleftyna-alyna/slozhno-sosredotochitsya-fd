@@ -70,6 +70,6 @@
   text-shadow: 2px 2px 0 var(--footer-accent-color);
 }
 
-.theme-light .card__subtitle .card__block .card__text .card__title {
+.theme-light .title-decor {
   color: var(--text-color);
 }
