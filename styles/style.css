@@ -142,7 +142,7 @@
 /* секция main */
 .main__section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-top: 40px;
   margin-left: var(--decoration-gap);
   margin-right: var(--decoration-gap);
@@ -175,6 +175,10 @@
 
 .card__block {
   grid-row: 1;
+  padding-top: 20px;
+}
+
+.card__block-what {
   padding-top: 20px;
 }
 
@@ -413,9 +417,9 @@
     gap: 10px;
   }
 
-  .cards-what .cards__list {
+  .cards-what-cards-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
 
