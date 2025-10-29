@@ -38,38 +38,3 @@
 .theme-light .header__rec {
   display: none;
 }
-
-.theme-light .decorated-zone::before {
-  border-block-start: 1px solid var(--decorated-color);
-  border-inline-end: 1px solid var(--decorated-color);
-}
-
-.theme-light .decorated-zone::after {
-  border-block-end: 1px solid var(--decorated-color);
-  border-inline-start: 1px solid var(--decorated-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--button-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  outline: 1px solid var(--button-color);
-  pointer-events: none;
-}
-
-.theme-light .header__theme-menu-button:hover {
-  outline: 1px solid rgb(var(--decorated-color-rgb), 0.4);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--decorated-color);
-}
-
-.theme-light .footer__text {
-  text-shadow: 2px 2px 0 var(--footer-accent-color);
-}
-
-.theme-light .title-decor {
-  color: var(--text-color);
-}

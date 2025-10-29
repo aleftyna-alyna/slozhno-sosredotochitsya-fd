@@ -11,7 +11,6 @@
   */
   --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-  --page-font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem); /*18px*/
   --accent-color: #ff0070;
   --uppercase-letters-color: #db00ff; /*для больших букв*/
   --subtext-dark-color: #000028;
@@ -24,22 +23,4 @@
 
 .theme-dark .header__rec {
   display: inline-block;
-}
-
-.theme-dark .header__theme-menu-button {
-  color: var(--button-color);
-}
-
-.theme-dark .header__theme-menu-button_active {
-  outline: 1px solid var(--button-color);
-  pointer-events: none;
-}
-
-.theme-dark
-  .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
-  outline: 1px solid rgb(var(--decorated-color-rgb), 0.4);
-}
-
-.theme-dark .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--decorated-color);
 }

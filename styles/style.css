@@ -34,7 +34,8 @@
   color: var(--accent-color);
   line-height: 138%;
   inset-inline-end: var(--decoration-gap);
-  display: none;
+  display: none;  
+  font-weight: normal;
 }
 
 .header__rec::after {
@@ -91,6 +92,7 @@
   background-color: inherit;
   border: none;
   font-size: 18px;
+  font-weight: normal;
   line-height: 18px;
   text-transform: lowercase;
   color: var(--button-color);
@@ -140,18 +142,25 @@
 /* секция main */
 .main__section {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-top: 40px;
   margin-left: var(--decoration-gap);
   margin-right: var(--decoration-gap);
+  gap: 20px;
+}
+
+.cards-why {
+  gap: 0px;
 }
 
 .cards-what {
   padding-top: 10px;
+  gap: 0px;
 }
 
 .cards-how {
   padding-top: 10px;
+  gap: 0px;
 }
 
 .card__title {
@@ -180,14 +189,25 @@
   letter-spacing: normal;
 }
 
-.cards-how .card__title_how {
-  margin-top: 20px;
+.card__subtitle_how {
   color: var(--subtext-dark-color);
   background-color: var(--accent-color);
   font-family: var(--page-font-family);
   font-size: var(--page-font-size);
   font-style: normal;
   font-weight: normal;
+  line-height: 130%;
+  letter-spacing: normal;
+}
+
+.card__title_how {
+  margin-top: 20px;
+  color: var(--subtext-dark-color);
+  background-color: var(--accent-color);
+  font-family: var(--page-font-family);
+  font-size: var(--page-font-size);
+  font-style: normal;
+  font-weight: bold;
   line-height: 130%;
   letter-spacing: normal;
 }
@@ -200,7 +220,7 @@
 
 .text-link:hover {
   outline: none;
-  border-bottom: 2px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .text-link:focus {
@@ -213,12 +233,13 @@
 }
 
 .image_section {
-  margin-top: 30px;
+  margin-top: 50px;
+  display: block;
 }
 
 .images {
   display: grid;
-  grid-template-columns: 1fr; /* для моб */
+  grid-template-columns: 1fr;
   grid-auto-flow: dense;
   gap: 10px;
   margin-top: 10px;
@@ -236,7 +257,6 @@
   grid-column: 1;
   grid-row: auto;
 }
-
 
 .footer {
   height: 100vh;
@@ -323,7 +343,7 @@
   }
 
   .image_section .card__subtitle {
-    margin-top: 30px;
+    margin-top: 80px;
   }
 
   .images {
@@ -357,7 +377,6 @@
   }
 
   .footer {
-    /* min-block-size: 1024px; */
     margin-block-start: 60px;
   }
 
