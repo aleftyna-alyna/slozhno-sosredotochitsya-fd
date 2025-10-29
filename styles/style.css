@@ -34,7 +34,7 @@
   color: var(--accent-color);
   line-height: 138%;
   inset-inline-end: var(--decoration-gap);
-  display: none;  
+  display: none;
   font-weight: normal;
 }
 
